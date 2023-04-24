@@ -1,0 +1,45 @@
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\bin\Debug\net6.0\McTurk.Domain.deps.json
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\bin\Debug\net6.0\McTurk.Domain.dll
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\bin\Debug\net6.0\McTurk.Domain.pdb
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\bin\Debug\net6.0\McTurk.dll
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\bin\Debug\net6.0\McTurk.pdb
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.csproj.AssemblyReference.cache
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.AssemblyInfoInputs.cache
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.AssemblyInfo.cs
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.csproj.CoreCompileInputs.cache
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.csproj.CopyComplete
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.dll
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\obj\Debug\net6.0\refint\McTurk.Domain.dll
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.pdb
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.Domain\obj\Debug\net6.0\ref\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\bin\Debug\net6.0\McTurk.Domain.deps.json
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\bin\Debug\net6.0\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\bin\Debug\net6.0\McTurk.Domain.pdb
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\bin\Debug\net6.0\McTurk.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\bin\Debug\net6.0\McTurk.pdb
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.csproj.AssemblyReference.cache
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.AssemblyInfoInputs.cache
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.AssemblyInfo.cs
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.csproj.CopyComplete
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\obj\Debug\net6.0\refint\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.pdb
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.Domain\obj\Debug\net6.0\ref\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\bin\Debug\net6.0\McTurk.Domain.deps.json
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\bin\Debug\net6.0\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\bin\Debug\net6.0\McTurk.Domain.pdb
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\bin\Debug\net6.0\McTurk.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\bin\Debug\net6.0\McTurk.pdb
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.csproj.AssemblyReference.cache
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.AssemblyInfoInputs.cache
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.AssemblyInfo.cs
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.csproj.CopyComplete
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\obj\Debug\net6.0\refint\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\obj\Debug\net6.0\McTurk.Domain.pdb
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.Domain\obj\Debug\net6.0\ref\McTurk.Domain.dll

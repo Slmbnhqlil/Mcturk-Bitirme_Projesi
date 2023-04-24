@@ -1,0 +1,720 @@
+﻿@model AppointmentReportDto
+
+<style>
+    @@media (max-width: 768px) {
+        html,
+        body {
+            font-size: 10px !important;
+        }
+
+        .m-form .m-form__group.m-form__group--sm {
+            padding-bottom: 10px;
+        }
+
+        .col-form-label {
+            margin-bottom: -15px;
+        }
+    }
+</style>
+<!--Begin::Main Portlet-->
+<div class="m-portlet">
+
+    <!--end: Portlet Head-->
+    <!--begin: Form Wizard-->
+    <div class="m-wizard m-wizard--1 m-wizard--success" id="m_wizard">
+
+        <!--begin: Message container -->
+        <div class="m-portlet__padding-x">
+
+            <!-- Here you can put a message or alert -->
+        </div>
+
+        <!--end: Message container -->
+        <!--begin: Form Wizard Form-->
+        <div class="m-wizard__form">
+
+            <!--
+                1) Use m-form--label-align-left class to alight the form input lables to the right
+                2) Use m-form--state class to highlight input control borders on form validation
+            -->
+            <form class="m-form m-form--label-align-left- m-form--state-" id="m_form" asp-action="randevuolustur" method="post">
+
+                <!--begin: Form Body -->
+                <div class="m-portlet__body">
+
+                    <!--begin: Form Wizard Step 1-->
+                    <div class="m-wizard__form-step m-wizard__form-step--current" id="m_wizard_form_step_1">
+                        <div class="row">
+                            <div class="col-xl-8 offset-xl-2">
+                                <div class="m-form__section">
+                                    <div class="m-form__heading">
+                                        <h3 class="m-form__heading-title">Araç Tipini Seçiniz</h3>
+                                    </div>
+                                    <div class="form-group m-form__group">
+                                        <div class="row">
+                                            <div class="col">
+                                                <label class="m-option" style="cursor: pointer;" onclick=" $('.spnPersonalDesc').each(function () { $(this).show(); }); $('.spnCompanyDesc').each(function () { $(this).hide(); });">
+                                                    <span class="m-option__control">
+                                                        <span class="m-radio m-radio--state-brand">
+                                                            <input type="radio" name="rdwhose" value="Otomobil" onselect="" style="margin-top:20px;position:inherit;">
+                                                            <span></span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="m-option__label">
+                                                        <span class="m-option__head">
+                                                            <span class="m-option__title">
+                                                                Otomobil
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                            <div class="col">
+                                                <label class="m-option" style="cursor: pointer;" onclick=" $('.spnPersonalDesc').each(function () { $(this).show(); }); $('.spnCompanyDesc').each(function () { $(this).hide(); });">
+                                                    <span class="m-option__control">
+                                                        <span class="m-radio m-radio--state-brand">
+                                                            <input type="radio" name="rdwhose" value="Motosiklet" onselect="" style="margin-top:20px;position:inherit;">
+                                                            <span></span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="m-option__label">
+                                                        <span class="m-option__head">
+                                                            <span class="m-option__title">
+                                                                Motosiklet
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                            <div class="col">
+                                                <label class="m-option" style="cursor: pointer;" onclick=" $('.spnPersonalDesc').each(function () { $(this).show(); }); $('.spnCompanyDesc').each(function () { $(this).hide(); });">
+                                                    <span class="m-option__control">
+                                                        <span class="m-radio m-radio--state-brand">
+                                                            <input type="radio" name="rdwhose" value="Kamyonet" onselect="" style="margin-top:20px;position:inherit;">
+                                                            <span></span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="m-option__label">
+                                                        <span class="m-option__head">
+                                                            <span class="m-option__title">
+                                                                Kamyonet
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--end: Form Wizard Step 1-->
+                    <!--begin: Form Wizard Step 2-->
+                    <div class="m-wizard__form-step" id="m_wizard_form_step_2">
+                        <div class="row">
+                            <div class="col-xl-8 offset-xl-2">
+                                <div class="m-form__section m-form__section--first">
+                                    <div class="form-group m-form__group row">
+                                        <div class="col m-form__group-sub">
+                                            <label class="form-control-label spnPersonalDesc">* Randevu Tarihi:</label>
+                                            <input type="text" name="txtDate" class="form-control m-input" autocomplete="off"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--end: Form Wizard Step 2-->
+                    <!--begin: Form Wizard Step 3-->
+                    <div class="m-wizard__form-step" id="m_wizard_form_step_3">
+                        <div class="row">
+                            <div class="col-xl-8 offset-xl-2">
+                                <div class="m-form__section">
+                                    <div class="m-form__heading">
+                                        <h3 class="m-form__heading-title">Muayene İstasyonu Seçiniz</h3>
+                                    </div>
+                                    <div class="form-group m-form__group">
+                                        <div class="row">
+                                            <div class="col">
+                                                <label class="m-option" style="cursor: pointer;" onclick=" $('.spnPersonalDesc').each(function () { $(this).show(); }); $('.spnCompanyDesc').each(function () { $(this).hide(); });">
+                                                    <span class="m-option__control">
+                                                        <span class="m-radio m-radio--state-brand">
+                                                            <input type="radio" name="rdwstation" value="Çatalca Muayene İstasyonu" onselect="" style="margin-top:20px;position:inherit;">
+                                                            <span></span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="m-option__label">
+                                                        <span class="m-option__head">
+                                                            <span class="m-option__title">
+                                                                Çatalca
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                            <div class="col">
+                                                <label class="m-option" style="cursor: pointer;" onclick=" $('.spnPersonalDesc').each(function () { $(this).show(); }); $('.spnCompanyDesc').each(function () { $(this).hide(); });">
+                                                    <span class="m-option__control">
+                                                        <span class="m-radio m-radio--state-brand">
+                                                            <input type="radio" name="rdwstation" value="Haraççı Muayene İstasyonu" onselect="" style="margin-top:20px;position:inherit;">
+                                                            <span></span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="m-option__label">
+                                                        <span class="m-option__head">
+                                                            <span class="m-option__title">
+                                                                Haraççı
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                            <div class="col">
+                                                <label class="m-option" style="cursor: pointer;" onclick=" $('.spnPersonalDesc').each(function () { $(this).show(); }); $('.spnCompanyDesc').each(function () { $(this).hide(); });">
+                                                    <span class="m-option__control">
+                                                        <span class="m-radio m-radio--state-brand">
+                                                            <input type="radio" name="rdwstation" value="Mimar Sinan Muayene İstasyonu" onselect="" style="margin-top:20px;position:inherit;">
+                                                            <span></span>
+                                                        </span>
+                                                    </span>
+                                                    <span class="m-option__label">
+                                                        <span class="m-option__head">
+                                                            <span class="m-option__title">
+                                                                Mimar Sinan
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--end: Form Wizard Step 3-->
+                    <!--begin: Form Wizard Step 4-->
+                    <div class="m-wizard__form-step" id="m_wizard_form_step_4">
+                        <div class="row">
+                            <div class="col-xl-8 offset-xl-2">
+                                <div class="m-form__section m-form__section--first">
+                                    <div class="m-form__heading">
+                                        <h3 class="m-form__heading-title">Müşteri Detay</h3>
+                                    </div>
+                                    <div class="form-group m-form__group row">
+                                        <div class="col-lg-6 m-form__group-sub">
+                                            <label class="form-control-label spnPersonalDesc">* Ad Soyad:</label>
+                                            <input type="text" name="txtCustomerName" class="form-control m-input" placeholder="" autocomplete="off">
+                                        </div>
+                                        <div class="col-lg-6 m-form__group-sub">
+                                            <label class="form-control-label spnPersonalDesc">* Tc Numarası:</label>
+                                            <input type="text" name="txtCustomerTCKN" class="form-control m-input" placeholder="" autocomplete="off">
+                                        </div>
+                                        <div class="col-lg-6 m-form__group-sub">
+                                            <label class="form-control-label">* Cep Telefonu:</label>
+                                            <input type="text" name="txtCustomerGsm" class="form-control m-input" placeholder="" autocomplete="off">
+                                        </div>
+                                        <div class="col-lg-6 m-form__group-sub">
+                                            <label class="form-control-label">* Araç Plakası:</label>
+                                            <input type="text" name="txtPlateNumber" class="form-control m-input" placeholder="" autocomplete="off">
+                                        </div>
+                                        <div class="col-lg-6 m-form__group-sub">
+                                            <label class="form-control-label">* Ruhsat Seri No:</label>
+                                            <input type="text" name="txtRegistirationNum" class="form-control m-input" placeholder="" autocomplete="off">
+                                        </div>
+                                        <div class="col-lg-6 m-form__group-sub">
+                                            <label class="form-control-label">Araç Model Yılı:</label>
+                                            <input type="text" name="txtRegistirationDate" class="form-control m-input" placeholder="" autocomplete="off">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--end: Form Wizard Step 4-->
+                    <!--begin: Form Wizard Step 5-->
+                    <div class="m-wizard__form-step" id="m_wizard_form_step_5">
+                        <div class="row">
+                            <div class="col-xl-8 offset-xl-2">
+
+                                <!--begin::Section-->
+                                <div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
+
+                                    <!--begin::Item-->
+                                    <div class="m-accordion__item active">
+                                        <div class="m-accordion__item-head" role="tab" id="m_accordion_1_item_1_head" data-toggle="collapse" href="#m_accordion_1_item_1_body" aria-expanded="false">
+                                            <span class="m-accordion__item-icon"><i class="flaticon flaticon-car"></i></span>
+                                            <span class="m-accordion__item-title">Araç Tipi</span>
+                                            <span class="m-accordion__item-mode"></span>
+                                        </div>
+                                        <div class="m-accordion__item-body collapse show" id="m_accordion_1_item_1_body" class=" " role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1">
+                                            <!--begin::Content-->
+                                            <div class="tab-content  m--padding-30">
+                                                <div class="m-form__section m-form__section--first">
+                                                    <div class="form-group m-form__group m-form__group--sm row">
+                                                        <label class="col-xl-4 col-lg-4 col-form-label">Araç Tipi:</label>
+                                                        <div class="col-xl-8 col-lg-8">
+                                                            <span class="m-form__control-static" id="rdwhose">Araç Plakası</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::Content-->
+                                    </div>
+
+                                    <!--end::Item-->
+                                    <!--begin::Item-->
+                                    <div class="m-accordion__item">
+                                        <div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_1_item_2_head" data-toggle="collapse" href="#m_accordion_1_item_2_body" aria-expanded="false">
+                                            <span class="m-accordion__item-icon"><i class="fa flaticon-calendar-with-a-clock-time-tools"></i></span>
+                                            <span class="m-accordion__item-title">Randevu Tarihi</span>
+                                            <span class="m-accordion__item-mode"></span>
+                                        </div>
+                                        <div class="m-accordion__item-body collapse" id="m_accordion_1_item_2_body" class=" " role="tabpanel" aria-labelledby="m_accordion_1_item_2_head" data-parent="#m_accordion_1">
+                                            <!--begin::Content-->
+                                            <div class="tab-content  m--padding-30">
+                                                <div class="m-form__section m-form__section--first">
+                                                    <div class="form-group m-form__group m-form__group--sm row">
+                                                        <label class="col-xl-4 col-lg-4 col-form-label spnPersonalDesc">Seçilen Randevu Tarihi:</label>
+                                                        <div class="col-xl-8 col-lg-8">
+                                                            <span class="m-form__control-static" id="spnDate2"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--end::Content-->
+                                        </div>
+                                    </div>
+
+                                    <!--end::Item-->
+                                    <!--begin::Item-->
+                                    <div class="m-accordion__item">
+                                        <div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_1_item_3_head" data-toggle="collapse" href="#m_accordion_1_item_3_body" aria-expanded="false">
+                                            <span class="m-accordion__item-icon"><i class="fa  flaticon-placeholder"></i></span>
+                                            <span class="m-accordion__item-title">Seçilen İstasyon Bilgisi</span>
+                                            <span class="m-accordion__item-mode"></span>
+                                        </div>
+                                        <div class="m-accordion__item-body collapse" id="m_accordion_1_item_3_body" role="tabpanel" aria-labelledby="m_accordion_1_item_3_head" data-parent="#m_accordion_1">
+                                            <div class="tab-content  m--padding-30">
+                                                <div class="m-form__section m-form__section--first">
+                                                    <div class="form-group m-form__group m-form__group--sm row">
+                                                        <label class="col-xl-4 col-lg-4 col-form-label">Seçilen İstasyon:</label>
+                                                        <div class="col-xl-8 col-lg-8">
+                                                            <span class="m-form__control-static" id="rdwstation">İstasyon</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end::Item-->
+                                    <!--begin::Item-->
+                                    <div class="m-accordion__item">
+                                        <div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_1_item_4_head" data-toggle="collapse" href="#m_accordion_1_item_4_body" aria-expanded="false">
+                                            <span class="m-accordion__item-icon"><i class="fa flaticon-user-ok"></i></span>
+                                            <span class="m-accordion__item-title">Müşteri Bilgileri</span>
+                                            <span class="m-accordion__item-mode"></span>
+                                        </div>
+                                        <div class="m-accordion__item-body collapse" id="m_accordion_1_item_4_body" class=" " role="tabpanel" aria-labelledby="m_accordion_1_item_4_head" data-parent="#m_accordion_1">
+                                            <div class="tab-content  m--padding-30">
+                                                <div class="m-form__section m-form__section--first">
+                                                    <div class="form-group m-form__group m-form__group--sm row">
+                                                        <label class="col-xl-4 col-lg-4 col-form-label">Ad Soyad:</label>
+                                                        <div class="col-xl-8 col-lg-8">
+                                                            <span class="m-form__control-static" id="spnName"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group m-form__group m-form__group--sm row">
+                                                        <label class="col-xl-4 col-lg-4 col-form-label">Tc Numarası:</label>
+                                                        <div class="col-xl-8 col-lg-8">
+                                                            <span class="m-form__control-static" id="spnTckn"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group m-form__group m-form__group--sm row">
+                                                        <label class="col-xl-4 col-lg-4 col-form-label">Cep Telefonu:</label>
+                                                        <div class="col-xl-8 col-lg-8">
+                                                            <span class="m-form__control-static" id="spnGsm"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group m-form__group m-form__group--sm row">
+                                                        <label class="col-xl-4 col-lg-4 col-form-label">Araç Plakası:</label>
+                                                        <div class="col-xl-8 col-lg-8">
+                                                            <span class="m-form__control-static" id="spnPlateNumber"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group m-form__group m-form__group--sm row">
+                                                        <label class="col-xl-4 col-lg-4 col-form-label">Ruhsat Seri No:</label>
+                                                        <div class="col-xl-8 col-lg-8">
+                                                            <span class="m-form__control-static" id="spnNum"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group m-form__group m-form__group--sm row">
+                                                        <label class="col-xl-4 col-lg-4 col-form-label">Araç Model Yılı:</label>
+                                                        <div class="col-xl-8 col-lg-8">
+                                                            <span class="m-form__control-static" id="spnDate"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end::Item-->
+                                </div>
+                            </div>
+
+                            <!--end::Section-->
+                            <div class="m-separator m-separator--dashed m-separator--lg"></div>
+                            <div class="form-group m-form__group m-form__group--sm row">
+                                <div class="col-xl-12">
+                                    <div class="m-checkbox-inline">
+                                        <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                            <input type="checkbox" name="accept" value="1">
+                                            <a href="#" target="_blank">Şartlar ve Koşullar sözleşmesinde</a> sunulan şartları okuduğunuzu ve kabul ettiğinizi belirtmek için burayı tıklayın
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--end: Form Wizard Step 4-->
+                    <!--begin: Form Wizard Step 5-->
+                    @*<div class="m-wizard__form-step" id="m_wizard_form_step_5">
+                    <div class="row">
+                    <div class="col-xl-8 offset-xl-2">
+                    <div class="m-form__section m-form__section--first">
+                    <div class="m-form__heading">
+                    <h3 class="m-form__heading-title">Sms Doğrulama</h3>
+                    </div>
+                    <div class="form-group m-form__group row">
+                    <div class="col-lg-6 m-form__group-sub">
+                    <label class="form-control-label">* Sms Şifresi:</label>
+                    <input type="text" name="txtSmsPassword" class="form-control m-input" placeholder="" autocomplete="off">
+                    <span class="m-form__help">Cep telefonunuza gönderilen sms doğrulama şifresini giriniz.</span>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>*@
+
+                    <!--end: Form Wizard Step 5-->
+                </div>
+
+                <!--end: Form Body -->
+                <!--begin: Form Wizard Head -->
+                <div class="m-wizard__head m-portlet__padding-x">
+
+                    <!--begin: Form Wizard Progress -->
+                    <div class="m-wizard__progress">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <!--end: Form Wizard Progress -->
+                    <!--begin: Form Wizard Nav -->
+                    <div class="m-wizard__nav">
+                        <div class="m-wizard__steps">
+                            <div class="m-wizard__step m-wizard__step--current" m-wizard-target="m_wizard_form_step_1">
+                                <div class="m-wizard__step-info">
+                                    <a href="#" class="m-wizard__step-number">
+                                        <span><span>1</span></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="m-wizard__step" m-wizard-target="m_wizard_form_step_2">
+                                <div class="m-wizard__step-info">
+                                    <a href="#" class="m-wizard__step-number">
+                                        <span><span>2</span></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="m-wizard__step" m-wizard-target="m_wizard_form_step_3">
+                                <div class="m-wizard__step-info">
+                                    <a href="#" class="m-wizard__step-number">
+                                        <span><span>3</span></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="m-wizard__step" m-wizard-target="m_wizard_form_step_4">
+                                <div class="m-wizard__step-info">
+                                    <a href="#" class="m-wizard__step-number">
+                                        <span><span>4</span></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="m-wizard__step" m-wizard-target="m_wizard_form_step_5">
+                                <div class="m-wizard__step-info">
+                                    <a href="#" class="m-wizard__step-number">
+                                        <span><span>5</span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--end: Form Wizard Nav -->
+                </div>
+
+                <!--end: Form Wizard Head -->
+                <!--begin: Form Actions -->
+                <div class="m-portlet__foot m-portlet__foot--fit">
+                    <div class="m-form__actions m-form__actions">
+                        <div class="row">
+                            <div class="col-md-12 m--align-center">
+                                <button class="btn btn-secondary m-btn m-btn--custom m-btn--icon" data-wizard-action="prev">
+                                    <span>
+                                        <i class="la la-arrow-left"></i>&nbsp;&nbsp;
+                                        <span>Geri</span>
+                                    </span>
+                                </button>
+                                <button class="btn btn-warning m-btn m-btn--custom m-btn--icon" id="btnNext" data-wizard-action="next">
+                                    <span>
+                                        <span>Sonraki</span>&nbsp;&nbsp;
+                                        <i class="la la-arrow-right"></i>
+                                    </span>
+                                </button>
+                                <button class="btn btn-primary m-btn m-btn--custom m-btn--icon" data-wizard-action="submit" asp-controller="Home" asp-action="randevuolusturma" type="submit">
+                                    <span>
+                                        <i class="la la-check"></i>&nbsp;&nbsp;
+                                        <span>Onayla</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--end: Form Actions -->
+            </form>
+        </div>
+
+        <!--end: Form Wizard Form-->
+    </div>
+
+    <!--end: Form Wizard-->
+</div>
+<!--End::Main Portlet-->
+<!--begin::Modal-->
+<div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <form class="m-form m-form--label-align-left- m-form--state-" id="sms_form" action="/home/SalesStartSmsConfirm" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sms Doğrulama</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="recipient-name" class="form-control-label">Sms Doğrulama Kodu:</label>
+                        <input type="text" name="txtSms" class="form-control" autocomplete="off">
+                        <span class="m-form__help">Cep telefonunuza gönderilen sms içerisindeki doğrulama kodunu giriniz.</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Vazgeç</button>
+                    <button type="button" class="btn btn-primary" id="btnSmsConfirm" onclick="SmsFormSubmitManuel()">Devam</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--end::Modal-->
+@section Scripts{
+    <script type="text/javascript">
+        var WizardDemo = function () {
+            //$("#m_wizard");
+            var e, r, i = $("#m_form");
+            return {
+                init: function () {
+                    var n;
+                    $("#m_wizard"), i = $("#m_form"), (r = new mWizard("m_wizard", {
+                        startStep: 1
+                    })).on("beforeNext", function (r) {
+                        !0 !== e.form() && r.stop()
+                    }), r.on("change", function (e) {
+                        mUtil.scrollTop()
+                    }), r.on("change", function (e) {
+                        1 === e.getStep()
+                    }), e = i.validate({
+                        ignore: ":hidden",
+                        rules: {
+                            rdwhose: {
+                                required: !0
+                            },
+                            rdwstation: {
+                                required: !0
+                            },
+                            txtPlateNumber: {
+                                required: !0,
+                                maxlength: 8,
+                                minlength: 8,
+                            },
+                            txtCustomerTCKN: {
+                                required: !0,
+                                maxlength: 11,
+                                minlength: 11,
+                                number: !0,
+                            },
+                            txtCustomerName: {
+                                required: !0,
+                            },
+                            txtCustomerGsm: {
+                                required: !0,
+                            },
+                            txtCustomerMail: {
+                                required: !0,
+                            },
+                            txtRegistirationNum: {
+                                required: !0,
+                            },
+                            txtDate: {
+                                required: !0,
+                            },
+                            txtRegistirationDate: {
+                                required: !0,
+                                number: !0,
+                                maxlength: 4,
+                                minlength: 4,
+                            },
+                            accept: {
+                                required: !0
+                            }
+                        },
+                        messages: {
+                            "account_communication[]": {
+                                required: "You must select at least one communication option"
+                            },
+                            accept: {
+                                required: "Şartlar ve Koşullar sözleşmesini kabul etmelisiniz!"
+                            }
+                        },
+                        invalidHandler: function (e, r) {
+                            mUtil.scrollTop(), swal({
+                                title: "",
+                                text: "Bazı alanlar hatalı lütfen düzeltin.",
+                                type: "error",
+                                confirmButtonClass: "btn btn-secondary m-btn m-btn--wide"
+                            })
+                        },
+                        submitHandler: function (e) { }
+                    }),
+                        (n = i.find('[data-wizard-action="submit"]')).on("click", function (r) {
+                            r.preventDefault(), e.form() && (mApp.progress(n), i.ajaxSubmit({
+                                success: function (message) {
+                                    mApp.unprogress(n);
+                                    if (message == "ok")
+                                        $('#m_modal_5').modal('show');
+                                    else
+                                        ShowError("İşlem Başarısız");
+                                },
+                                error: function (message) { mApp.unprogress(n), ShowError("İşlem Başarısız"); }
+                            }))
+                        })
+                }
+            }
+        }();
+        jQuery(document).ready(function () {
+            WizardDemo.init();
+
+            $("#btnNext").on("click", function () {
+                FillLastPage();
+            });
+
+            //$("#sms_form").submit(function () {
+
+            //    $.ajax({
+            //        type: "POST",
+            //        url: "/home/SalesStartSmsConfirm",
+            //        data: $(this).serialize(),
+            //        success: function () {
+            //        if (data == "ok") {
+            //            window.Location("/home/salesreport")
+            //        }
+            //        else {
+            //            ShowError(data);
+            //        }
+            //        }
+            //    })
+
+            //});
+            if (location.hostname === "localhost") {
+                SetDefaultValues();
+            }
+
+        });
+
+        function SmsFormSubmitManuel() {
+            mApp.progress($('#btnSmsConfirm'));
+
+            $("#sms_form").ajaxSubmit({
+                success: function (data) {
+                    mApp.unprogress($('#btnSmsConfirm'));
+
+                    if (data == "ok") {
+                        location.replace("/home/salesreport");
+                    }
+                    else {
+                        ShowError(data);
+                    }
+                }
+            });
+        }
+
+        var plateNumber;
+        var tckn;
+        var name;
+        var gsm;
+        var date;
+        var number;
+        var aracTip;
+        var istasyon;
+        var date2;
+
+        function FillLastPage() {
+            plateNumber = $("[name='txtPlateNumber']").val();
+            $("#spnPlateNumber").html(plateNumber);
+
+            tckn = $("[name='txtCustomerTCKN']").val();
+            $("#spnTckn").html(tckn);
+
+            name = $("[name='txtCustomerName']").val();
+            $("#spnName").html(name);
+
+            gsm = $("[name='txtCustomerGsm']").val();
+            $("#spnGsm").html(gsm);
+
+            number = $("[name='txtRegistirationNum']").val();
+            $("#spnNum").html(number);
+
+            date = $("[name='txtRegistirationDate']").val();
+            $("#spnDate").html(date);
+
+            aracTip = $("[name='rdwhose']").val();
+            $("#rdwhose").html(aracTip);
+
+            istasyon = $("[name='rdwstation']").val();
+            $("#rdwstation").html(istasyon);
+
+            date2 = $("[name='txtDate']").val();
+            $("#spnDate2").html(date2);
+        }
+    </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            $("[name='txtDate']").datepicker({ rtl: mUtil.isRTL(), todayBtn: "linked", clearBtn: !0, todayHighlight: !0, required: !0, language: "tr", orientation: "auto bottom" });
+        });
+
+    </script>
+}

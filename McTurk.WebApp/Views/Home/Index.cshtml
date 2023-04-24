@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<div class="m-alert m-alert--icon m-alert--air m-alert--square alert alert-dismissible m--margin-bottom-30" role="alert">
+    <div class="m-alert__icon">
+        <i class="flaticon-exclamation m--font-brand"></i>
+    </div>
+    <div class="m-alert__text">
+        Araç Muayene işleminizi McTurk'u kullanarak rahatlıkla gerçekleştirebilirsiniz.
+    </div>
+</div>
+
+<!--begin::Portlet-->
+<div class="m-portlet">
+    <div class="m-portlet__head">
+        <div class="m-portlet__head-caption">
+            <div class="m-portlet__head-title">
+                <span class="m-portlet__head-icon m--hide">
+                    <i class="la la-gear"></i>
+                </span>
+                <h3 class="m-portlet__head-text">
+                    Seçim Yapınız
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <!--begin::Form-->
+    <form class="m-form">
+        <div class="m-portlet__body">
+            <div class="m-form__section m-form__section--first">
+                <div class="form-group m-form__group">
+                    <div class="row">
+                        <div class="col-lg-6" style="margin-bottom:20px;" onclick="location.href = '/home/randevuolustur';">
+                            <label class="m-option" style="background-color:#34bfa3; color:white;cursor: pointer;">
+                                @*<span class="m-option__control">
+                                        <span class="m-radio m-radio--brand m-radio--check-bold">
+                                            <input type="radio" name="m_option_1" value="1">
+                                            <span></span>
+                                        </span>
+                                    </span>*@
+                                <span class="m-option__label">
+                                    <span class="m-option__head">
+                                        <span class="m-option__title" style="color:white;">
+                                            Yeni Muayene Oluştur
+                                        </span>
+                                    </span>
+                                    <span class="m-option__body">
+                                        Mevcutta muayeniz yok ise bu seçenekten devam edebilirsiniz.
+                                    </span>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="col-lg-6" onclick="location.href = '/home/randevusorgulama';">
+                            <label class="m-option" style="background-color:#ffb822;cursor: pointer; color:white;">
+                                @*<span class="m-option__control">
+                                        <span class="m-radio m-radio--brand m-radio--check-bold">
+                                            <input type="radio" name="m_option_1" value="1">
+                                            <span></span>
+                                        </span>
+                                    </span>*@
+                                <span class="m-option__label">
+                                    <span class="m-option__head">
+                                        <span class="m-option__title" style="color:white;">
+                                            Randevu Sorgula
+                                        </span>
+                                    </span>
+                                    <span class="m-option__body">
+                                        Oluşturulmuş randevuyu görmek için bu seçenekten devam edebilirsiniz.
+                                    </span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!--end::Form-->
+</div>
+
+<!--end::Portlet-->

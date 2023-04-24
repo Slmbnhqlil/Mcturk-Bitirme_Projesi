@@ -1,0 +1,57 @@
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.deps.json
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.runtimeconfig.json
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.dll
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.pdb
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\bin\Debug\net6.0\McTurk.dll
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\bin\Debug\net6.0\McTurk.Domain.dll
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\bin\Debug\net6.0\McTurk.Domain.pdb
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\bin\Debug\net6.0\McTurk.pdb
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.csproj.AssemblyReference.cache
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.AssemblyInfoInputs.cache
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.AssemblyInfo.cs
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.csproj.CoreCompileInputs.cache
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.csproj.CopyComplete
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.dll
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\refint\McTurk.DataAccess.dll
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.pdb
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.genruntimeconfig.cache
+D:\McTurk\McTurk\McTurk Bitirme Projesi\McTurk.DataAccess\obj\Debug\net6.0\ref\McTurk.DataAccess.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.deps.json
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.runtimeconfig.json
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.pdb
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.Domain.pdb
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.pdb
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.AssemblyInfo.cs
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.csproj.CopyComplete
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\refint\McTurk.DataAccess.dll
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.pdb
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.genruntimeconfig.cache
+C:\Users\ibrahim.agdas\Desktop\McTurk\McTurk.DataAccess\obj\Debug\net6.0\ref\McTurk.DataAccess.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.deps.json
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.runtimeconfig.json
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.DataAccess.pdb
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.Domain.pdb
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\bin\Debug\net6.0\McTurk.pdb
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.AssemblyInfo.cs
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.csproj.CopyComplete
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\refint\McTurk.DataAccess.dll
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.pdb
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\McTurk.DataAccess.genruntimeconfig.cache
+C:\Users\ibrahim.agdas\source\McTurk\McTurk.DataAccess\obj\Debug\net6.0\ref\McTurk.DataAccess.dll

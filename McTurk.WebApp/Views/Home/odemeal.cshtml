@@ -1,0 +1,151 @@
+﻿<style type="text/css">
+    @@media (max-width: 768px) {
+        .card-wrapper {
+            display: none;
+        }
+    }
+
+    .auto-style1 {
+        left: 20px;
+        top: 36px;
+        height: 19px;
+    }
+
+    @@media screen and (max-width: 250px) {
+        .auto-style1 {
+            flex-direction: column;
+            width: 100% !important;
+            float: left !important;
+        }
+    }
+</style>
+<div class="m-portlet">
+    <div class="m-portlet__head">
+        <div class="m-portlet__head-caption">
+            <div class="m-portlet__head-title">
+                <h3 class="m-portlet__head-text">
+                    Ödeme Yap
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="m-portlet__body">
+        <form>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-5">
+                        <strong><span id="spnStatus" style="font-size: x-large"></span></strong><span style="font-size: x-large" id="spnMessage"></span>
+                        <strong>
+                            <asp:Label ID="spnStatusR" runat="server" Font-Size="X-Large"></asp:Label>
+                        </strong>
+                        <asp:Label ID="spnMessageR" runat="server" Font-Size="X-Large"></asp:Label>
+                        <br />
+                        <asp:Button runat="server" ID="btnDekont" CssClass="btn btn-danger btn-lg" OnClick="btnDekont_Click" Text="Dekont" Visible="false" />
+                        <asp:HiddenField runat="server" ID="hash" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="m-form__section m-form__section--first">
+                        <div class="form-group m-form__group row">
+                            <label class="col-lg-5 col-form-label">Kart Üzerindeki İsim</label>
+                            <div class="col-lg-7">
+                                <input placeholder="" class="form-control" type="text" name="txtCardTitle" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-form__section m-form__section--first">
+                        <div class="form-group m-form__group row">
+                            <label class="col-lg-5 col-form-label">Kredi Kartı Numarası</label>
+                            <div class="col-lg-7">
+                                <input placeholder="" class="form-control" maxlength="19" type="text" name="txtCardNumber" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-form__section m-form__section--first">
+                        <div class="form-group m-form__group row">
+                            <label class="col-lg-5 col-form-label">Son Kullanma Tarihi / CVC</label>
+                            <div class="col-lg-4">
+                                <input placeholder="12 / 23" class="form-control" type="tel" name="txtCardExpires" />
+                            </div>
+                            <div class="col-lg-3">
+                                <input placeholder="CVC" type="number" class="form-control" name="txtCardCVC" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-form__section m-form__section--first">
+                        <div class="form-group m-form__group row">
+                            <label class="col-lg-5 col-form-label">Müşteri Telefon No</label>
+                            <div class="col-lg-7">
+                                <input name="txtCustomerPhone" type="text" class="form-control" placeholder="0(___)___-__-__" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="m-form__section m-form__section--first">
+                        <div class="form-group m-form__group row">
+                            <label class="col-lg-5 col-form-label">Tutar</label>
+                            <div class="col-lg-7">
+                                <input placeholder="Tutar" value="12" type="text" class="form-control" name="txtAmount" style="margin-top: 0px" readonly />
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+                <div class="col-lg-4">
+                    <div class="card-wrapper" style="margin-left: -25px"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="margin-bottom: 100px; width: 100%">
+                    <button type="submit" class="btn btn-success btn-lg btn-block" id="btnEYV3DPay" asp-controller="Home" asp-action="odemeal">ÖDEME YAP</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="alert alert-success" style="display: none">
+                        <strong>Başarılı!</strong><span runat="server" id="successMess">Ödeme Başarıyla Gerçekleştirilmiştir</span>
+                    </div>
+                    <div style="display: none" class='alert alert-danger'><strong>Başarısız!</strong><span id="errorMess"></span></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="../wwwroot/js/card.js"></script>
+<script src="../wwwroot/js/3.3.1.jquery.min.js"></script>
+<script src="../wwwroot/js/sweetalert2.all.js"></script>
+<script type="text/javascript">
+
+    $("#btnEYV3DPay").on("click", function () {
+        SetValues();
+    });
+
+    var title;
+    var number;
+    var expires;
+    var cvc;
+    var phone;
+    var amount;
+
+    function SetValues() {
+        title = $("[name='txtCardTitle']").val();
+        $("#txtTitle").html(title);
+
+        tckn = $("[name='txtCardNumber']").val();
+        $("#txt").html(tckn);
+
+        name = $("[name='txtCardExpires']").val();
+        $("#spnName").html(name);
+
+        gsm = $("[name='txtCardCVC']").val();
+        $("#spnGsm").html(gsm);
+
+        number = $("[name='txtCustomerPhone']").val();
+        $("#spnNum").html(number);
+
+        date = $("[name='txtAmount']").val();
+        $("#spnDate").html(date);
+    }
+</script>
