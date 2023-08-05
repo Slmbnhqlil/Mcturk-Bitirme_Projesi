@@ -9,9 +9,9 @@
         public int UserId { get; set; }
         public int VehicleId { get; set; }
 
-        public ICollection<VehicleType> VehicleType { get; set; }
-        public ICollection<Station> Stations { get; set; }
-        public ICollection<Users> Users { get; set; }
-        public ICollection<Vehicle> Vehicles { get; set; }
+        public IEnumerable<VehicleType> VehicleType { get; set; }
+        public IEnumerable<Station> Stations { get; set; }
+        public IEnumerable<Users> Users { get; set; }
+        public IEnumerable<Vehicle> Vehicles { get; set; }
     }
 }

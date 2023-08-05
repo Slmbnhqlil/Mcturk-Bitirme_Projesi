@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/10xj2RBT+AKuzOYXlJUK6lLp2nGogt3OATuCvC+CiLICQmQt6MIg7xQCpJ6/Jy7EehwsJX6rPObuYjEMnLgiw==",
+  "dgSpecHash": "MRmi17CBGYPyQfGratEgyyhm6XWQYEz2rpV6ecC7rhcpdLSlHRJs66JMXjtYDX4SDrVq24gX8hgQ7agFdQByzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.Business\\McTurk.Business.csproj",
+  "projectFilePath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.Business\\McTurk.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ibrahim.agdas\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
     "C:\\Users\\ibrahim.agdas\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",

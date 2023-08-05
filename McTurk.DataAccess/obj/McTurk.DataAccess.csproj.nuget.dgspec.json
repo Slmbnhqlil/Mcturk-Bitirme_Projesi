@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.DataAccess\\McTurk.DataAccess.csproj": {}
+    "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.DataAccess\\McTurk.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.DataAccess\\McTurk.DataAccess.csproj": {
+    "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.DataAccess\\McTurk.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.DataAccess\\McTurk.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.DataAccess\\McTurk.DataAccess.csproj",
         "projectName": "McTurk.DataAccess",
-        "projectPath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.DataAccess\\McTurk.DataAccess.csproj",
+        "projectPath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.DataAccess\\McTurk.DataAccess.csproj",
         "packagesPath": "C:\\Users\\ibrahim.agdas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.Domain\\McTurk.Domain.csproj": {
-                "projectPath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.Domain\\McTurk.Domain.csproj"
+              "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.Domain\\McTurk.Domain.csproj": {
+                "projectPath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.Domain\\McTurk.Domain.csproj"
               },
-              "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk\\McTurk.csproj": {
-                "projectPath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk\\McTurk.csproj"
+              "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk\\McTurk.csproj": {
+                "projectPath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk\\McTurk.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.Domain\\McTurk.Domain.csproj": {
+    "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.Domain\\McTurk.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.Domain\\McTurk.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.Domain\\McTurk.Domain.csproj",
         "projectName": "McTurk.Domain",
-        "projectPath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.Domain\\McTurk.Domain.csproj",
+        "projectPath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.Domain\\McTurk.Domain.csproj",
         "packagesPath": "C:\\Users\\ibrahim.agdas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.Domain\\obj\\",
+        "outputPath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -120,8 +120,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk\\McTurk.csproj": {
-                "projectPath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk\\McTurk.csproj"
+              "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk\\McTurk.csproj": {
+                "projectPath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk\\McTurk.csproj"
               }
             }
           }
@@ -155,14 +155,14 @@
         }
       }
     },
-    "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk\\McTurk.csproj": {
+    "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk\\McTurk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk\\McTurk.csproj",
+        "projectUniqueName": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk\\McTurk.csproj",
         "projectName": "McTurk",
-        "projectPath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk\\McTurk.csproj",
+        "projectPath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk\\McTurk.csproj",
         "packagesPath": "C:\\Users\\ibrahim.agdas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk\\obj\\",
+        "outputPath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

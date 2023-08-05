@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YG9gU+PL14PwoatfJhJEI48OWLPDhKL4p7oGq7rDmPYMHGGacv0fhxDTZ11dOWOg64PiFYL08WgxgW+Ao1bquA==",
+  "dgSpecHash": "apmOMbuA2d9rb2SQWflbni6pCTBpZLLjIwYhyAujwh0BcwWsHgwFHouO6nU3++ZpPb2Yb/S0NMz4kOddxhVisA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ibrahim.agdas\\source\\GIT\\McTurk\\McTurk.DataAccess\\McTurk.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\ibrahim.agdas\\Desktop\\Bitirme Projesi\\McTurk.DataAccess\\McTurk.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ibrahim.agdas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ibrahim.agdas\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",

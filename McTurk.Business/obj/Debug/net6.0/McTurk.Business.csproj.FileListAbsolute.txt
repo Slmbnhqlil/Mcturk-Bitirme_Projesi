@@ -55,3 +55,22 @@ C:\Users\ibrahim.agdas\source\McTurk\McTurk.Business\obj\Debug\net6.0\McTurk.Bus
 C:\Users\ibrahim.agdas\source\McTurk\McTurk.Business\obj\Debug\net6.0\refint\McTurk.Business.dll
 C:\Users\ibrahim.agdas\source\McTurk\McTurk.Business\obj\Debug\net6.0\McTurk.Business.pdb
 C:\Users\ibrahim.agdas\source\McTurk\McTurk.Business\obj\Debug\net6.0\ref\McTurk.Business.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\bin\Debug\net6.0\McTurk.Business.deps.json
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\bin\Debug\net6.0\McTurk.Business.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\bin\Debug\net6.0\McTurk.Business.pdb
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\bin\Debug\net6.0\McTurk.DataAccess.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\bin\Debug\net6.0\McTurk.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\bin\Debug\net6.0\McTurk.Domain.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\bin\Debug\net6.0\McTurk.DataAccess.pdb
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\bin\Debug\net6.0\McTurk.Domain.pdb
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\bin\Debug\net6.0\McTurk.pdb
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\obj\Debug\net6.0\McTurk.Business.csproj.AssemblyReference.cache
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\obj\Debug\net6.0\McTurk.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\obj\Debug\net6.0\McTurk.Business.AssemblyInfoInputs.cache
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\obj\Debug\net6.0\McTurk.Business.AssemblyInfo.cs
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\obj\Debug\net6.0\McTurk.Business.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\obj\Debug\net6.0\McTurk.Business.csproj.CopyComplete
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\obj\Debug\net6.0\McTurk.Business.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\obj\Debug\net6.0\refint\McTurk.Business.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\obj\Debug\net6.0\McTurk.Business.pdb
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk.Business\obj\Debug\net6.0\ref\McTurk.Business.dll

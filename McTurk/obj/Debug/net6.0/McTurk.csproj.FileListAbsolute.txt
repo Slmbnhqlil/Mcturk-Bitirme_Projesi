@@ -34,3 +34,15 @@ C:\Users\ibrahim.agdas\source\McTurk\McTurk\obj\Debug\net6.0\McTurk.dll
 C:\Users\ibrahim.agdas\source\McTurk\McTurk\obj\Debug\net6.0\refint\McTurk.dll
 C:\Users\ibrahim.agdas\source\McTurk\McTurk\obj\Debug\net6.0\McTurk.pdb
 C:\Users\ibrahim.agdas\source\McTurk\McTurk\obj\Debug\net6.0\ref\McTurk.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\bin\Debug\net6.0\McTurk.deps.json
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\bin\Debug\net6.0\McTurk.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\bin\Debug\net6.0\McTurk.pdb
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\obj\Debug\net6.0\McTurk.csproj.AssemblyReference.cache
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\obj\Debug\net6.0\McTurk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\obj\Debug\net6.0\McTurk.AssemblyInfoInputs.cache
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\obj\Debug\net6.0\McTurk.AssemblyInfo.cs
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\obj\Debug\net6.0\McTurk.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\obj\Debug\net6.0\McTurk.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\obj\Debug\net6.0\refint\McTurk.dll
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\obj\Debug\net6.0\McTurk.pdb
+C:\Users\ibrahim.agdas\Desktop\Bitirme Projesi\McTurk\obj\Debug\net6.0\ref\McTurk.dll
